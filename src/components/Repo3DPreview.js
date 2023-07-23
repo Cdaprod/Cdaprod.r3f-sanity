@@ -1,7 +1,7 @@
 // Repo3DPreview.js
 import React, { useState, useEffect, useMemo } from 'react';
 import * as THREE from 'three';
-import { Canvas } from 'react-three-fiber';
+import { Canvas } from '@react-three/fiber';
 import { fetchRepos } from './GithubAPI';
 
 function createRepoTexture(repo) {
